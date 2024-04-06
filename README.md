@@ -1,6 +1,3 @@
-Baseando-se nas informações fornecidas sobre o projeto Pass-In, aqui está uma proposta de README em português que você pode personalizar conforme necessário:
-
-```markdown
 # Pass-In - Aplicação de Gestão de Participantes em Eventos Presenciais
 
 ## Sobre o Projeto
@@ -43,10 +40,3 @@ Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição
 ## Licença
 
 Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
-## Contato
-
-Link do Projeto: [https://github.com/Taimisson/Pass-In](https://github.com/Taimisson/Pass-In)
-```
-
-Este README inclui seções básicas que a maioria dos projetos se beneficiaria, como uma visão geral, recursos, instruções para começar, diretrizes de contribuição, informações de licença e detalhes de contato. Sinta-se à vontade para ajustar o conteúdo de acordo com as necessidades específicas e o progresso do seu projeto.
