@@ -33,6 +33,10 @@ Pass-In é uma aplicação destinada à gestão de participantes de eventos pres
    mvn spring-boot:run
    ```
 
+## Tecnologias Utilizadas
+
+Este projeto é desenvolvido utilizando Java para o back-end, com Maven para gerenciamento de dependências e Spring Boot para configuração e setup simplificados. A aplicação conta com uma API Rest para comunicação eficiente front-back, integração com o banco de dados HSQL para armazenamento de dados, JPA para persistência de dados, migrações de banco de dados gerenciadas pelo Flyway para controle de versão do banco, e utiliza DTOs (Data Transfer Objects) para uma manipulação eficiente dos dados entre as diferentes camadas da aplicação.
+
 ## Contribuição
 
 Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição para mais informações.
