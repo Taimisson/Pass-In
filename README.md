@@ -1,46 +1,46 @@
-# Pass-In - Aplicação de Gestão de Participantes em Eventos Presenciais
+**Pass-In - Participant Management Application for In-Person Events**
 
-## Sobre o Projeto
+### About the Project
 
-Pass-In é uma aplicação destinada à gestão de participantes de eventos presenciais. Permite que organizadores cadastrem eventos, abram páginas públicas de inscrição e gerenciem o check-in dos participantes de forma eficiente através de credenciais digitais e escaneamento de QR code.
+Pass-In is an application designed for managing participants at in-person events. It enables organizers to register events, open public registration pages, and efficiently manage participant check-ins through digital credentials and QR code scanning.
 
-## Recursos
+### Features
 
-- **Gerenciamento de Eventos:** Organizadores podem criar e visualizar detalhes do evento.
-- **Inscrição de Participantes:** Participantes podem se inscrever nos eventos e visualizar seu crachá de inscrição.
-- **Sistema de Check-In:** Realização do check-in no evento através de QR code no crachá.
+- **Event Management:** Organizers can create and view event details.
+- **Participant Registration:** Participants can register for events and view their registration badge.
+- **Check-In System:** Conduct event check-ins via QR code on the badge.
 
-## Como Começar
+### Getting Started
 
-### Pré-requisitos
+#### Prerequisites
 
 - JDK (Java Development Kit)
 - Maven
-- IDE de preferência que suporte Java (IntelliJ IDEA, Eclipse, etc.)
+- Preferred Java IDE (IntelliJ IDEA, Eclipse, etc.)
 
-### Instalação
+#### Installation
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Taimisson/Pass-In.git
-   ```
-2. Navegue até o diretório do projeto e instale as dependências:
-   ```bash
-   mvn install
-   ```
-3. Execute a aplicação:
-   ```bash
-   mvn spring-boot:run
-   ```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Taimisson/Pass-In.git
+    ```
+2. Navigate to the project directory and install dependencies:
+    ```bash
+    mvn install
+    ```
+3. Run the application:
+    ```bash
+    mvn spring-boot:run
+    ```
 
-## Tecnologias Utilizadas
+### Technologies Used
 
-Este projeto é desenvolvido utilizando Java para o back-end, com Maven para gerenciamento de dependências e Spring Boot para configuração e setup simplificados. A aplicação conta com uma API Rest para comunicação eficiente front-back, integração com o banco de dados HSQL para armazenamento de dados, JPA para persistência de dados, migrações de banco de dados gerenciadas pelo Flyway para controle de versão do banco, e utiliza DTOs (Data Transfer Objects) para uma manipulação eficiente dos dados entre as diferentes camadas da aplicação.
+This project uses Java for the backend, Maven for dependency management, and Spring Boot for simplified configuration and setup. The application features a REST API for efficient front-back communication, integrates with the HSQL database for data storage, uses JPA for data persistence, Flyway for database migrations, and DTOs (Data Transfer Objects) for efficient data handling across different layers of the application.
 
-## Contribuição
+### Contribution
 
-Contribuições são bem-vindas! Por favor, leia as diretrizes de contribuição para mais informações.
+Contributions are welcome! Please read the contribution guidelines for more information.
 
-## Licença
+### License
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Distributed under the MIT license. See the LICENSE file for more information.
